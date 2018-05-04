@@ -1,5 +1,5 @@
 SPK_NAME = open-vm-tools
-SPK_VERS = 10.2.0
+SPK_VERS = 10.2.5
 SPK_REV = 1
 SPK_ICON = src/open-vm-tools.png
 
