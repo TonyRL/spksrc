@@ -14,7 +14,7 @@ preinst ()
 {
     SYNOVersion=$(get_key_value /etc/VERSION majorversion)
 
-    if [ ${SYNOVersion} -ge 6 ]; then
+    if [ ${SYNOVersion} -ne 6 ]; then
         echo "Your DSM version is not supported."
         exit 1
     fi
