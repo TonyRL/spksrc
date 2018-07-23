@@ -19,7 +19,7 @@ PRE_CONFIGURE_TARGET = myPreConfigure
 PRE_PATCH_TARGET = myPrePatch
 COMPILE_TARGET = myCompile
 
-CONFIGURE_ARGS = --with-xmlrpc-c=$(STAGING_INSTALL_PREFIX)/bin/xmlrpc-c-config
+CONFIGURE_ARGS = --enable-ipv6 --with-xmlrpc-c=$(STAGING_INSTALL_PREFIX)/bin/xmlrpc-c-config
 
 include ../../mk/spksrc.cross-cc.mk
 
